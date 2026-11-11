@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging / build outputs
+build/
+dist/
+*.spec.bak
+*.zip
+
+# Runtime SQLite database files (keep data/.gitkeep)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite*
+
+# Generated forensic reports (keep reports/.gitkeep)
+reports/*.pdf
+reports/*.json
+reports/*.md
+reports/*.csv
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# IDE & OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
